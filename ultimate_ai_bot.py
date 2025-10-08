@@ -18,7 +18,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 # Импорты наших модулей
 from advanced_rl_learning import AdvancedReinforcementLearner
-from hierarchical_ai import HierarchicalAI, StrategicGoal, TacticalAction
+from hierarchical_ai import HierarchicalAI, StrategicGoal
 from learning_ai_brain import LearningAIBrain, GameState, HeroRole
 from smart_targeting import SmartTargetSelector, GameEntity
 from hero_controller import HeroController, GameCommand, ActionType
@@ -417,4 +417,5 @@ def main():
 
 if __name__ == "__main__":
     exit_code = main()
+
     exit(exit_code)
